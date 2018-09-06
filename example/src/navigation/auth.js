@@ -10,7 +10,8 @@ import AppConfig from '@app/config';
 
 // Scenes
 import {
-  AuthWebView,
+  // AuthWebView,
+  Register,
   AuthLogin,
   SelectServer,
   SamlLogin,
@@ -18,7 +19,6 @@ import {
 
 /* Routes ==================================================================== */
 const scenes = (
-
   <Scene key={'authenticate'}>
     <StatusBar barStyle="light-content" />
     <Scene
@@ -51,10 +51,10 @@ const scenes = (
     />
     <Scene
       {...AppConfig.navbarProps}
-      key={'signUp'}
+      key={'register'}
       title={'Sign Up'}
       clone
-      component={AuthWebView}
+      component={Register}
       url={AppConfig.base.urls.signUp}
       analyticsDesc={'AuthWebView: Sign Up'}
     />
@@ -63,7 +63,7 @@ const scenes = (
       key={'passwordReset'}
       title={'Password Reset'}
       clone
-      component={AuthWebView}
+      component={Register}
       url={AppConfig.base.urls.resetPassword}
       analyticsDesc={'AuthWebView: Password Reset'}
     />
