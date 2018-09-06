@@ -18,7 +18,20 @@ import Members from './board/Members';
 //   with regards to this schema here
 
 module.exports = {
-  schema: [App, User, Group, Message, RemoteFile, Card, Board, Lists, CardComments, Checklists, Checklistitems, Members],
+  schema: [
+    App,
+    User,
+    Group,
+    Message,
+    RemoteFile,
+    Card,
+    Board,
+    Lists,
+    CardComments,
+    Checklists,
+    Checklistitems,
+    Members,
+  ],
   schemaVersion: 1,
-  migration: () => { },
+  migration: () => {},
 };

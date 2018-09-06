@@ -196,15 +196,15 @@ class ChatService {
     this.provider.mgbdUpdateCards(cardID, cardObj, cb);
   }
 
-  mgbdCreateLists(listObj, cb){
+  mgbdCreateLists(listObj, cb) {
     this.provider.mgbdCreateLists(listObj, cb);
   }
 
-  mgbdUpdateLists(listID, listObj, cb){
+  mgbdUpdateLists(listID, listObj, cb) {
     this.provider.mgbdUpdateLists(listID, listObj, cb);
   }
 
-  mgbdUpdateCheckLists(checklistID, checklistObj, cb){
+  mgbdUpdateCheckLists(checklistID, checklistObj, cb) {
     this.provider.mgbdUpdateCheckLists(checklistID, checklistObj, cb);
   }
 

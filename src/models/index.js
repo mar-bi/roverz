@@ -85,7 +85,7 @@ class Database {
   get bdchecklist() {
     return Database._bdchecklist;
   }
-  
+
   get bdchecklistitems() {
     return Database._bdchecklistitems;
   }
